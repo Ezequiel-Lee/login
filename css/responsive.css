@@ -1,0 +1,82 @@
+@media (min-width: 1440px) and (max-width: 2560px) {
+  .card-login {
+    width: 85%;
+    height: 85%;
+  }
+
+  .card-login h1 {
+    font-size: 60px;
+  }
+
+  .textfield {
+    height: 60px;
+    margin: 50px;
+  }
+
+  .textfield input {
+    padding: 30px;
+  }
+
+  .btn-login {
+    padding: 30px 0px;
+    margin: 30px;
+  }
+
+  .textfield label {
+    font-size: 30px;
+  }
+
+  .textfield input::placeholder {
+    font-size: 28px;
+  }
+
+  section .btn-login {
+    font-size: 30px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .card-login {
+    width: 75%;
+    height: 75%;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-login {
+    width: 74%;
+    height: 75%;
+  }
+}
+
+@media (max-width: 525px) {
+
+  .main-login {
+    flex-direction: column;
+  }
+
+  .left-login h1 {
+    display: none;
+  }
+
+  .left-login-image {
+    width: 50vw;
+  }
+
+  .left-login {
+    width: 100%;
+    height: auto;
+  }
+
+  .right-login {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-login {
+    width: 85%;
+    height: 95%;
+  }
+
+}
